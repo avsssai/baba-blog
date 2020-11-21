@@ -1,0 +1,80 @@
+.content {
+	width: 60vw;
+	margin: 0 auto;
+	padding: 3rem 0;
+	height: 60vh;
+}
+
+.nameImage {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name {
+	font-size: 84px;
+	font-weight: 800;
+	line-height: 1.25;
+	color: #eb3d33;
+	font-family: "Montserrat", sans-serif;
+}
+
+.image {
+	border-radius: 50%;
+}
+
+.firstName {
+	color: white;
+	font-size: inherit;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #eb3d33;
+}
+
+.wave {
+	/* position: absolute;
+	bottom: 0;
+    left: 0; */
+	opacity: 0.3;
+}
+.subtags {
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	color: black;
+}
+
+.writer {
+	font-family: "Pacifico", cursive;
+}
+
+.intro {
+	margin-top: 2rem;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.specialText {
+	color: #eb3d33;
+}
+
+.specialWrittenText {
+	color: #eb3d33;
+	font-family: "Pacifico", cursive;
+}
+
+@media only screen and (max-width: 1200px) {
+	.content {
+		width: 80vw;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.content {
+		width: 80vw;
+		height: auto;
+	}
+	.nameImage {
+		flex-direction: column-reverse;
+	}
+}

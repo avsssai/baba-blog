@@ -1,0 +1,48 @@
+.container {
+	max-width: 36rem;
+	padding: 0 1rem;
+	margin: 3rem auto 6rem;
+}
+
+.navbar {
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding: 3rem;
+	height: 15vh;
+	align-items: center;
+	z-index: 1000;
+	font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+	font-size: 36px;
+	color: #eb3d30;
+	font-weight: 800;
+	font-family: "Pacifico", cursive;
+}
+.rightNavs {
+	display: flex;
+	width: 25%;
+	justify-content: space-around;
+	font-size: 24px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.rightNavs {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.navbar {
+		flex-direction: column;
+		padding: 0.5rem;
+	}
+	.logo {
+		font-size: 24px;
+	}
+	.rightNavs {
+		width: 100%;
+	}
+}
