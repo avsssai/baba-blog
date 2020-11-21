@@ -1,4 +1,5 @@
 import styles from "./layout.module.css";
+import Link from "next/link";
 
 export default function Layout({ children }) {
 	return (
@@ -8,7 +9,12 @@ export default function Layout({ children }) {
 				<div className={styles.rightNavs}>
 					<div className={styles.about}>About</div>
 					<div className={styles.contact}>Contact</div>
-					<div className={styles.blog}>Blog</div>
+
+					<div className={styles.blog}>
+						<Link href='/blog/home'>
+							<a>Blog</a>
+						</Link>
+					</div>
 				</div>
 			</nav>
 			<div>{children}</div>
