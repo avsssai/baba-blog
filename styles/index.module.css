@@ -1,4 +1,80 @@
-.content {
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+	/* font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif, -apple-system,
+		system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+		"Helvetica Neue", sans-serif; */
+	font-family: "Raleway", sans-serif;
+}
+
+.mainCard {
+	width: 80%;
+	height: 80%;
+	display: flex;
+
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+		0 15px 40px rgba(166, 173, 201, 0.2);
+	background-color: white;
+}
+
+.firstName {
+	font-weight: 500;
+}
+.lastName {
+	font-weight: 500;
+}
+
+.intro {
+	font-size: 36px;
+	margin-top: 2rem;
+}
+
+.links {
+	margin-top: 2rem;
+}
+
+.links > div {
+	margin-top: 0.5rem;
+	/* text-decoration: underline;
+	text-decoration-color: lawngreen; */
+	font-style: italic;
+}
+
+.links > div:hover {
+	cursor: pointer;
+}
+
+.underline {
+	border-bottom: 4px solid #f21b3f;
+	width: 20%;
+}
+
+.cardContent {
+	width: 60%;
+	border-collapse: separate;
+	border-radius: 10px;
+	padding: 3rem;
+}
+.cardImage > img {
+	height: 100%;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 0 10px 10px 0;
+}
+.cardImage {
+	width: 40%;
+}
+.mainHeader {
+	font-size: 96px;
+	line-height: 1.2;
+}
+
+/* .content {
 	width: 60vw;
 	margin: 0 auto;
 	padding: 3rem 0;
@@ -31,9 +107,6 @@
 }
 
 .wave {
-	/* position: absolute;
-	bottom: 0;
-    left: 0; */
 	opacity: 0.3;
 }
 .subtags {
@@ -77,4 +150,4 @@
 	.nameImage {
 		flex-direction: column-reverse;
 	}
-}
+} */

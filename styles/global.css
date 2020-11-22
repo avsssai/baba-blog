@@ -16,10 +16,6 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
-a:hover {
-	text-decoration: underline;
-	text-decoration-color: #eb3d30;
-}
 img {
 	max-width: 100%;
 	display: block;
