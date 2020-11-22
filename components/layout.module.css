@@ -15,6 +15,17 @@
 	z-index: 1000;
 	font-family: "Montserrat", sans-serif;
 }
+.navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	/* text-decoration: underline;
+	text-decoration-color: #eb3d33;
+	text-decoration-thickness: 4px; */
+	border-bottom: 4px solid #eb3d33;
+}
 
 .logo {
 	font-size: 36px;
