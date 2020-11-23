@@ -1,63 +1,45 @@
+.blogLanding {
+  height: 90vh;
+  width: 100vw;
+  background-color: #e2eafc;
+}
+
 /* .blogList {
-	display: grid;
-	width: 80vw;
-	margin: 0 auto;
-	grid-template-columns: repeat(auto-fill, minmax(1fr, 4fr));
-	grid-gap: 2px;
-	grid-auto-rows: minmax(100px, auto);
-	grid-auto-flow: dense;
-	padding: 10px;
-	font-size: 1em;
-}
-
-.blogList div:nth-child(3n + 1) {
-	grid-column-end: span 4;
-	grid-row-end: span 4;
-	font-size: 1.2em;
-}
-
-.blogList div:nth-child(2n + 3) {
-	grid-column-end: span 2;
-	grid-row-end: span 1;
-	border: 1px solid #eb3d30;
-	font-size: 1em;
-} */
-.blogList {
-	width: 80vw;
-	margin: 0 auto;
+  width: 80vw;
+  margin: 0 auto;
 }
 .myMasonryGrid {
-	display: -webkit-box; /* Not needed if autoprefixing */
-	display: -ms-flexbox; /* Not needed if autoprefixing */
-	display: flex;
-	margin-left: 0px; /* gutter size offset */
-	width: auto;
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex;
+  margin-left: 0px; 
+  width: auto;
 }
 .myMasonryGridColumn {
-	padding-left: -1000px; /* gutter size */
-	background-clip: padding-box;
+  padding-left: -1000px; 
+  background-clip: padding-box;
 }
 
-/* Style your items */
+
 .myMasonryGridColumn > div {
-	/* change div to reference your elements you put in <Masonry> */
-	margin-bottom: 0px;
+  
+  margin-bottom: 0px;
 }
 
 .blogPost {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: 200px;
-	padding: 1rem;
-	font-size: 1.3rem;
-	margin: 1rem 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 1rem 0.4rem;
 }
 
 .blogPost:hover {
-	padding: 10px;
-	border: 1px solid #eb3d30;
-	box-shadow: -1px 1px #eb3d30, -2px 2px #eb3d30, -3px 3px #eb3d30,
-		-4px 4px #eb3d30, -5px 5px #eb3d30;
-}
+  padding: 10px;
+  border: 1px solid #eb3d30;
+  box-shadow: -1px 1px #eb3d30, -2px 2px #eb3d30, -3px 3px #eb3d30,
+    -4px 4px #eb3d30, -5px 5px #eb3d30;
+} */

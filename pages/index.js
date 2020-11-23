@@ -5,48 +5,51 @@ import styles from "../styles/index.module.css";
 import Wave from "../public/wave.svg";
 
 export default function Home() {
-	return (
-		<div className={styles.container}>
-			<div className={styles.mainCard} style={{ borderRadius: "10px" }}>
-				<div className={styles.cardContent}>
-					<div className={styles.mainHeader}>
-						<div className={styles.firstName}>Sujay</div>
-						<div className={styles.lastName}>Krishna</div>
-					</div>
-					<div className={styles.intro}>
-						Food <span className={styles.spin}>Writer</span>
-					</div>
-					<div className={styles.links}>
-						<Link href='/blog/home'>
-							<a>
-								Me flexing my finger muscles
-								<div className={styles.underline}></div>
-							</a>
-						</Link>
-						<Link href='#'>
-							<a>
-								Get in touch
-								<div className={styles.underline}></div>
-							</a>
-						</Link>
-						<Link href='#'>
-							<a>
-								Cute pictures of my dog
-								<div className={styles.underline}></div>
-							</a>
-						</Link>
-					</div>
-				</div>
-				<div className={styles.cardImage}>
-					<img src='/images/profile.jpg' />
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <Layout>
+      <div className={styles.container}>
+        <div className={styles.mainCard} style={{ borderRadius: "10px" }}>
+          <div className={styles.cardContent}>
+            <div className={styles.mainHeader}>
+              <div className={styles.firstName}>Sujay</div>
+              <div className={styles.lastName}>Krishna</div>
+            </div>
+            <div className={styles.intro}>
+              Food writer and blogger, video game afficianado and proud owner of
+              my dog <i>Cookie</i> .
+            </div>
+            <div className={styles.links}>
+              <Link href="/blog/home">
+                <a>
+                  Me flexing my finger muscles
+                  <div className={styles.underline}></div>
+                </a>
+              </Link>
+              <Link href="#">
+                <a>
+                  Get in touch
+                  <div className={styles.underline}></div>
+                </a>
+              </Link>
+              <Link href="#">
+                <a>
+                  Cute pictures of my dog
+                  <div className={styles.underline}></div>
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.cardImage}>
+            <img src="/images/profile.jpg" />
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
 }
 
 {
-	/* <div className={styles.content}>
+  /* <div className={styles.content}>
 				<div className={styles.nameImage}>
 					<div className={styles.name}>
 						<div className={styles.firstName}>Sujay</div>
