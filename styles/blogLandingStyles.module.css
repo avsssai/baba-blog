@@ -1,9 +1,49 @@
 .blogLanding {
-  height: 90vh;
-  width: 100vw;
-  background-color: #e2eafc;
+	width: 100vw;
+	background-color: #e2eafc;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
 }
 
+.contentWrapper {
+	display: flex;
+	width: 80%;
+	margin: 5vh auto;
+	/* border: 1px solid red; */
+	/* border: 3px solid black; */
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+		0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.details {
+	width: 25%;
+	/* border: 1px solid red; */
+}
+
+.blog {
+	/* padding: 2rem 1rem; */
+	display: flex;
+}
+
+.blogImage {
+	width: 150px;
+	min-height: 150px;
+	max-height: auto;
+	float: left;
+	margin: 3px;
+	padding: 3px;
+}
+.blogImage > img {
+	height: auto;
+	max-width: 100%;
+}
+
+.title {
+	max-width: 80%;
+}
 /* .blogList {
   width: 80vw;
   margin: 0 auto;
