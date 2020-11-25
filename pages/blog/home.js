@@ -22,7 +22,6 @@ export default function BlogLanding({ createdData }) {
 			</Head>
 			<div className={styles.blogLanding}>
 				<div className={styles.contentWrapper}>
-					<div className={styles.details}></div>
 					<div className={styles.blogList}>
 						{createdData.map((item) => {
 							return (
@@ -34,11 +33,29 @@ export default function BlogLanding({ createdData }) {
 										/>
 									</div>
 
-									<div className={styles.title}>
-										{item.title}
-									</div>
-									<div className={styles.subText}>
-										Read More
+									<div className={styles.blogText}>
+										<Link href={`/blog/posts/${item.slug}`}>
+											<a>
+												<div className={styles.title}>
+													{item.title}
+												</div>
+											</a>
+										</Link>
+
+										<div className={styles.subText}>
+											<div className={styles.preview}>
+												{`${item.content.slice(
+													0,
+													200
+												)}...`}
+											</div>
+											<div className={styles.readMore}>
+												<Link
+													href={`/blog/posts/${item.slug}`}>
+													<a>Read More &#8594;</a>
+												</Link>
+											</div>
+										</div>
 									</div>
 								</div>
 							);

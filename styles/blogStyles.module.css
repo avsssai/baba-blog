@@ -1,0 +1,107 @@
+.blogWrapper {
+	width: 100vw;
+
+	padding: 1rem;
+	background-color: white;
+	margin: 5vh auto;
+}
+.headerContent {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerImage {
+	min-width: 40%;
+	max-width: 40%;
+}
+.headerImage > img {
+	height: auto;
+	max-width: 100%;
+	border-radius: 8px;
+}
+.blogHeader {
+	font-size: 2rem;
+	font-weight: 800;
+	text-align: center;
+	padding: 1rem;
+	font-family: "Poppins", sans-serif;
+}
+
+.blogHeader::first-letter {
+	color: red;
+	font-size: 3rem;
+}
+.nameAndDate {
+	width: 60%;
+	margin: 5% auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.secondaryDetails {
+	display: flex;
+	align-items: center;
+}
+.name {
+	margin-left: 10px;
+	font-size: 24px;
+	font-weight: 800;
+	font-family: "Poppins", sans-serif;
+}
+.name::first-letter {
+	color: red;
+	font-size: 24px;
+}
+.date {
+	font-size: 20px;
+	font-weight: 800;
+	font-family: "Poppins", sans-serif;
+}
+
+.date::first-letter {
+	color: red;
+	font-size: 24px;
+}
+
+.profileImage {
+	border-radius: 50%;
+}
+
+.blogText {
+	width: 60%;
+	margin: auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 700px) {
+	.headerContent {
+		width: 100%;
+		flex-direction: column;
+	}
+	.headerImage {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	.blogHeader {
+		font-size: 1.5rem;
+		font-weight: 800;
+		line-height: 1.2;
+		text-align: center;
+		padding: 1rem;
+		font-family: "Poppins", sans-serif;
+	}
+	.nameAndDate {
+		width: 100%;
+	}
+	.name,
+	.date {
+		font-size: 1rem;
+	}
+	.blogText {
+		width: 100%;
+		text-align: left;
+		font-size: 16px;
+	}
+}
