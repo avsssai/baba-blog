@@ -49,11 +49,20 @@ export default function BlogLanding({ createdData }) {
 													200
 												)}...`}
 											</div>
-											<div className={styles.readMore}>
-												<Link
-													href={`/blog/posts/${item.slug}`}>
-													<a>Read More &#8594;</a>
-												</Link>
+											<div
+												className={
+													styles.readMoreAndDate
+												}>
+												<div
+													className={styles.readMore}>
+													<Link
+														href={`/blog/posts/${item.slug}`}>
+														<a>Read More &#8594;</a>
+													</Link>
+												</div>
+												<div className={styles.date}>
+													November 14, 2020
+												</div>
 											</div>
 										</div>
 									</div>

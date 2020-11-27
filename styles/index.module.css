@@ -1,80 +1,80 @@
 .container {
-  height: 90vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: #fafafa; */
-  background-color: #e2eafc;
-  /* margin-top: 5vh; */
-  /* font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
+	height: 92vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #fafafa; */
+	background-color: #e2eafc;
+	/* margin-top: 5vh; */
+	/* font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
 		Cantarell, "Open Sans", "Helvetica Neue", sans-serif, -apple-system,
 		system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
 		"Helvetica Neue", sans-serif; */
-  font-family: "Raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 .mainCard {
-  width: 80%;
-  height: 90%;
-  display: flex;
-  max-width: 1600px;
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-    0 15px 40px rgba(166, 173, 201, 0.2);
-  background-color: white;
-  border: 3px solid black;
+	width: 80%;
+	height: 90%;
+	display: flex;
+	max-width: 1600px;
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+		0 15px 40px rgba(166, 173, 201, 0.2);
+	background-color: white;
+	border: 3px solid black;
 }
 
 .firstName {
-  font-weight: 500;
+	font-weight: 500;
 }
 .lastName {
-  font-weight: 500;
+	font-weight: 500;
 }
 
 .intro {
-  font-size: 24px;
-  margin-top: 2rem;
+	font-size: 24px;
+	margin-top: 2rem;
 }
 
 .links {
-  margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 .links > div {
-  margin-top: 0.5rem;
-  /* text-decoration: underline;
+	margin-top: 0.5rem;
+	/* text-decoration: underline;
 	text-decoration-color: lawngreen; */
-  font-style: italic;
+	font-style: italic;
 }
 
 .links > div:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .underline {
-  border-bottom: 4px solid #f21b3f;
-  width: 20%;
+	border-bottom: 4px solid #f21b3f;
+	width: 20%;
 }
 
 .cardContent {
-  width: 60%;
-  border-collapse: separate;
-  border-radius: 10px;
-  padding: 3rem;
+	width: 60%;
+	border-collapse: separate;
+	border-radius: 10px;
+	padding: 3rem;
 }
 .cardImage > img {
-  height: 100%;
-  width: 100%;
-  border-collapse: separate;
-  border-radius: 0 10px 10px 0;
+	height: 100%;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 0 10px 10px 0;
 }
 .cardImage {
-  width: 40%;
+	width: 40%;
 }
 .mainHeader {
-  font-size: 96px;
-  line-height: 1.2;
+	font-size: 96px;
+	line-height: 1.2;
 }
 
 /* .content {
