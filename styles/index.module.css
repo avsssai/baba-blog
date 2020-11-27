@@ -1,16 +1,203 @@
-.container {
+.main {
+	color: #e1e4e6;
+
+	height: 90vh;
+	font-family: "Maven Pro", sans-serif;
+	display: flex;
+	width: 80%;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.first {
+	font-size: 120px;
+	/*   font-weight:800; */
+	color: #df3c30;
+	text-align: justify;
+	max-width: 500px;
+	width: 100%;
+	letter-spacing: 10px;
+	font-family: "Alfa Slab One", cursive;
+	line-height: 1.35;
+}
+.second {
+	font-size: 86px;
+	color: #df3c30;
+	font-family: "Alfa Slab One", cursive;
+
+	line-height: 0.15;
+	max-width: 500px;
+	text-align: justify;
+}
+.leftSlab {
+	max-width: 500px;
+}
+
+.rightSlab {
+	display: flex;
+	flex-wrap: wrap;
+	height: 50%;
+	width: 500px;
+}
+.rightSlab > .image {
+	max-width: 30%;
+	min-width: 30%;
+	min-height: 25%;
+}
+
+.writer {
+	font-size: 102px;
+	font-weight: 800;
+	letter-spacing: 10px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
+.secondLine {
+	max-width: 500px;
+	padding: 0;
+	margin: 0;
+	width: 500px;
+	display: flex;
+	font-size: 44px;
+	line-height: 0.3;
+	font-weight: 600;
+	letter-spacing: -3px;
+}
+.secondLine > div {
+	text-align: justify;
+}
+.thirdLine > div {
+	text-align: justify;
+	white-space: normal;
+}
+
+.thirdLine {
+	font-size: 36px;
+	line-height: 1.9;
+	/* letter-spacing: 1px; */
+	font-weight: 600;
+	max-width: 500px;
+	text-align: justify;
+}
+
+.blog {
+	color: #df3b15;
+	text-decoration: underline;
+}
+#img1 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #fc8764;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+#img2 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #ffaf95;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+#img3 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #ffd7c9;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+#img4 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #94e27e;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+#img5 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #baeca9;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+#img6 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #ddf6d4;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+#img7 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #c1afff;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+#img8 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #d7c9ff;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+#img9 {
+	background-image: url(https://images.unsplash.com/photo-1596518997680-7f15c4b7543d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fGd1eXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+
+	background-color: #ebe4ff;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+@media (max-width: 700px) {
+	.main {
+		flex-direction: column-reverse;
+		width: 300px;
+		justify-content: space-evenly;
+		align-content: center;
+	}
+	.leftSlab {
+		max-width: 300px;
+		justify-content: center;
+	}
+	.rightSlab {
+		max-width: 300px;
+		justify-content: center;
+	}
+	.first {
+		font-size: 48px;
+		/* font-weight: 800; */
+	}
+	.second {
+		font-size: 42px;
+		line-height: 0.56;
+	}
+	.writer {
+		font-size: 42px;
+	}
+	.secondLine {
+		width: 400px;
+		font-size: 24px;
+		max-width: fit-content;
+	}
+	.thirdLine {
+		width: 400px;
+		font-size: 16px;
+		max-width: fit-content;
+		letter-spacing: 1px;
+	}
+}
+/* .container {
 	height: 92vh;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* background-color: #fafafa; */
 	background-color: #e2eafc;
-	/* margin-top: 5vh; */
-	/* font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu,
-		Cantarell, "Open Sans", "Helvetica Neue", sans-serif, -apple-system,
-		system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-		"Helvetica Neue", sans-serif; */
 	font-family: "Raleway", sans-serif;
 }
 
@@ -43,8 +230,6 @@
 
 .links > div {
 	margin-top: 0.5rem;
-	/* text-decoration: underline;
-	text-decoration-color: lawngreen; */
 	font-style: italic;
 }
 
@@ -76,81 +261,4 @@
 	font-size: 96px;
 	line-height: 1.2;
 }
-
-/* .content {
-	width: 60vw;
-	margin: 0 auto;
-	padding: 3rem 0;
-	height: 60vh;
-}
-
-.nameImage {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.name {
-	font-size: 84px;
-	font-weight: 800;
-	line-height: 1.25;
-	color: #eb3d33;
-	font-family: "Montserrat", sans-serif;
-}
-
-.image {
-	border-radius: 50%;
-}
-
-.firstName {
-	color: white;
-	font-size: inherit;
-	-webkit-text-stroke-width: 4px;
-	-webkit-text-stroke-color: #eb3d33;
-}
-
-.wave {
-	opacity: 0.3;
-}
-.subtags {
-	font-size: 24px;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 2rem;
-	color: black;
-}
-
-.writer {
-	font-family: "Pacifico", cursive;
-}
-
-.intro {
-	margin-top: 2rem;
-	font-size: 24px;
-	font-weight: 500;
-}
-
-.specialText {
-	color: #eb3d33;
-}
-
-.specialWrittenText {
-	color: #eb3d33;
-	font-family: "Pacifico", cursive;
-}
-
-@media only screen and (max-width: 1200px) {
-	.content {
-		width: 80vw;
-		height: auto;
-	}
-}
-@media only screen and (max-width: 500px) {
-	.content {
-		width: 80vw;
-		height: auto;
-	}
-	.nameImage {
-		flex-direction: column-reverse;
-	}
-} */
+ */

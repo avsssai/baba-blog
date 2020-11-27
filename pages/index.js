@@ -5,9 +5,50 @@ import styles from "../styles/index.module.css";
 import Wave from "../public/wave.svg";
 
 export default function Home() {
-  return (
-    <Layout>
-      <div className={styles.container}>
+	return (
+		<Layout>
+			<div className={styles.main}>
+				<div className={styles.leftSlab}>
+					<div className={styles.name}>
+						<div className={styles.first}>SUJAY</div>
+						<div className={styles.second}>KRISHNA</div>
+					</div>
+					<div className={styles.writer}>WRITER</div>
+					<div className={styles.secondLine}>
+						<div>
+							<span className={styles.blog}>BLOGGER</span>&
+						</div>
+						<div>FREELANCER</div>
+					</div>
+					<div className={styles.thirdLine}>
+						<div>VIDEO GAME AFFICIANADO</div>
+					</div>
+				</div>
+				<div className={styles.rightSlab}>
+					<div className={styles.image} id={styles.img1}></div>
+					<div className={styles.image} id={styles.img2}></div>
+
+					<div className={styles.image} id={styles.img3}></div>
+
+					<div className={styles.image} id={styles.img4}></div>
+
+					<div className={styles.image} id={styles.img5}></div>
+
+					<div className={styles.image} id={styles.img6}></div>
+
+					<div className={styles.image} id={styles.img7}></div>
+
+					<div className={styles.image} id={styles.img8}></div>
+
+					<div className={styles.image} id={styles.img9}></div>
+				</div>
+			</div>
+		</Layout>
+	);
+}
+
+{
+	/* <div className={styles.container}>
         <div className={styles.mainCard} style={{ borderRadius: "10px" }}>
           <div className={styles.cardContent}>
             <div className={styles.mainHeader}>
@@ -43,50 +84,5 @@ export default function Home() {
             <img src="/images/profile.jpg" />
           </div>
         </div>
-      </div>
-    </Layout>
-  );
-}
-
-{
-  /* <div className={styles.content}>
-				<div className={styles.nameImage}>
-					<div className={styles.name}>
-						<div className={styles.firstName}>Sujay</div>
-						<div className={styles.lastName}>Krishna</div>
-						<div className={styles.subtags}>
-							<div className={styles.writer}>Writer</div>
-							<div>Gamer</div>
-							<div>Activist</div>
-						</div>
-					</div>
-					<div className={styles.imageContainer}>
-						<Image
-							src='/profile.jpg'
-							alt='profile'
-							height='300'
-							width='300'
-							className={styles.image}
-						/>
-					</div>
-				</div>
-				<div className={styles.intro}>
-					There are a lot of things I enjoy like
-					<span className={styles.specialText}>
-						{" "}
-						a good video game
-					</span>{" "}
-					or{" "}
-					<span className={styles.specialText}>
-						a hot plate of food
-					</span>{" "}
-					but most importantly I enjoy{" "}
-					<span className={styles.specialWrittenText}>
-						writing by hand.
-					</span>
-				</div>
-			</div>
-			<div className='wave'>
-				<Wave />
-			</div> */
+      </div> */
 }
