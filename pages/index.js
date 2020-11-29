@@ -43,6 +43,57 @@ export default function Home() {
 					<div className={styles.image} id={styles.img9}></div>
 				</div>
 			</div>
+			<div className={styles.contact}>
+				<div className={styles.contentWrapper}>
+					<div className={styles.leftContact}>
+						<div className={styles.contactHeader}>
+							GET IN TOUCH!
+						</div>
+
+						<div className={styles.contactSubHeader}>
+							Have a job for me? <br />
+							Or just ask me about the game I am playing now.
+						</div>
+					</div>
+					<div className={styles.rightContact}>
+						<div className={styles.formWrapper}>
+							<form action='#' className={styles.form}>
+								<label for='name' className={styles.label}>
+									Name
+								</label>
+								<input
+									type='text'
+									placeholder='Your name?'
+									className={styles.input}
+								/>
+								<label for='email' className={styles.label}>
+									Email
+								</label>
+								<input
+									type='text'
+									placeholder="What's your email?"
+									className={styles.input}
+								/>
+								<label for='summary' className={styles.label}>
+									Summary
+								</label>
+								<textarea
+									name='summary'
+									className={styles.input}
+									id='summary'
+									cols=''
+									placeholder='How may I help you today?'
+									rows='10'></textarea>
+								<button type='submit'>Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer className={styles.footer}>
+				<div className={styles.logo}>Sujay Writes</div>
+				<div className={styles.copyright}>&#169; 2020</div>
+			</footer>
 		</Layout>
 	);
 }
