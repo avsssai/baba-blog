@@ -17,7 +17,7 @@ export default function Blog({ postData }) {
 					<div className={styles.secondaryDetails}>
 						<Image
 							className={styles.profileImage}
-							src='/images/profile.jpg'
+							src='/images/profile.png'
 							height='75'
 							width='75'
 							alt='profile'

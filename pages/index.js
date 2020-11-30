@@ -58,7 +58,7 @@ export default function Home() {
 					<div className={styles.rightContact}>
 						<div className={styles.formWrapper}>
 							<form action='#' className={styles.form}>
-								<label for='name' className={styles.label}>
+								<label htmlFor='name' className={styles.label}>
 									Name
 								</label>
 								<input
@@ -66,7 +66,7 @@ export default function Home() {
 									placeholder='Your name?'
 									className={styles.input}
 								/>
-								<label for='email' className={styles.label}>
+								<label htmlFor='email' className={styles.label}>
 									Email
 								</label>
 								<input
@@ -74,7 +74,9 @@ export default function Home() {
 									placeholder="What's your email?"
 									className={styles.input}
 								/>
-								<label for='summary' className={styles.label}>
+								<label
+									htmlFor='summary'
+									className={styles.label}>
 									Summary
 								</label>
 								<textarea
